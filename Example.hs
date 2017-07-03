@@ -7,6 +7,7 @@
 module Main where
 
 import Print
+import Data.Char  
 import Protolude hiding (Show, show, print)
 
 data Animal 
@@ -43,6 +44,10 @@ main = do
   print ("To be or not to be.\nThat is the question." :: Text)
   putStrLn (show (3.1415926535 :: Double))
   print (map (++"!") ["hey","ho","woo"])  
-  a <- return "hell"  
-  b <- return "yeah!"  
+  a <- return "Hell"  
+  b <- return "Yeah!"  
   putStrLn $ a ++ " " ++ b  
+--	do
+--  putStr "Give me some input: "  
+--  l <- getLine  
+  putStrLn $ map toUpper a  
