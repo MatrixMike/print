@@ -42,3 +42,7 @@ main = do
   print ("継続は力なり" :: Text)
   print ("To be or not to be.\nThat is the question." :: Text)
   putStrLn (show (3.1415926535 :: Double))
+  print (map (++"!") ["hey","ho","woo"])  
+  a <- return "hell"  
+  b <- return "yeah!"  
+  putStrLn $ a ++ " " ++ b  
