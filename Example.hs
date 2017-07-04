@@ -13,7 +13,7 @@ import Protolude hiding (Show, show, print)
 data Animal 
   = Dog
   | Cat
-  deriving (Generic, Show)
+  deriving (Generic, Show) -- Show rplaced with Print.Show
 
 data T1 
   = T1 Int Bool

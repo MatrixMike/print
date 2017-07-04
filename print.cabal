@@ -1,5 +1,5 @@
 name:                print
-version:             0.1.5
+version:             0.1.6
 synopsis:            Simple printing for Text.
 description:         Simple printing for Text and automatic deriving of Text Show.
 homepage:            https://github.com/sdiehl/print
