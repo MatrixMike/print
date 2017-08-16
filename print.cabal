@@ -27,7 +27,7 @@ Bug-Reports:         https://github.com/sdiehl/print/issues
 
 description:
     Simple printing for Text.
-Source-Repository headl
+Source-Repository head
     type: git
     location: git@github.com:sdiehl/print.git
 
